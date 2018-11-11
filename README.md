@@ -2,7 +2,7 @@
 
 ## Clone repository ##
 ```sh
-git clone https://github.com/simonarstamtesting2/dockerized-expo
+git clone https://github.com/simonarstamtesting2/dockerized-expo.git
 ```
 
 ## .env ##
