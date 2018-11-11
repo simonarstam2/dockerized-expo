@@ -1,0 +1,16 @@
+version: '3.4'
+services: 
+  expo:
+    build: .
+    ports: 
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"
+    volumes: 
+      # - /home/expo-app/.expo
+      - ./expo-app:/home/expo-app
+      # - /expo-app/home/node_modules
+      # - /dev/bus/usb:/dev/bus/usb
+    privileged: true
+    env_file:
+      - .env
